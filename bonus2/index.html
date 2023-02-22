@@ -48,7 +48,7 @@
 
                     {{task.text}}
 
-                    <button @click="removeTask(i)" type="button" class="my-btn btn btn-danger"><i class="fa-solid fa-xmark"></i></button>
+                    <button @click.stop="removeTask(i)" type="button" class="my-btn btn btn-danger"><i class="fa-solid fa-xmark"></i></button>
                     
                 </li>
                 
